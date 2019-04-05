@@ -21,6 +21,4 @@ syn = { version = "0.15", features = ["full", "parsing"] }
 actix-web = { version = "1.0.0-alpha.2" }
 actix-http = { version = "0.1.0-alpha.2" }
 actix-http-test = { version = "0.1.0-alpha.2" }
-actix-service = { version = "0.3" }
-actix-server-config = { version = "0.1" }
 futures = { version = "0.1" }
