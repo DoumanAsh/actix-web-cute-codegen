@@ -1,0 +1,26 @@
+[package]
+name = "actix-web-cute-codegen"
+version = "0.1.0"
+description = "My codegen macros"
+readme = "README.md"
+authors = ["Douman <douman@gmx.se>"]
+license = "Apache-2.0"
+edition = "2018"
+repository = "https://github.com/DoumanAsh/actix-web-cute-codegen"
+documentation = "https://docs.rs/crate/actix-web-cute-codegen/"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.6"
+proc-macro2 = "0.4"
+syn = { version = "0.15", features = ["full", "parsing"] }
+
+[dev-dependencies]
+actix-web = { version = "1.0.0-alpha.2" }
+actix-http = { version = "0.1.0-alpha.2" }
+actix-http-test = { version = "0.1.0-alpha.2" }
+actix-service = { version = "0.3" }
+actix-server-config = { version = "0.1" }
+futures = { version = "0.1" }
