@@ -202,7 +202,7 @@ pub fn hook(_args: TokenStream, input: TokenStream) -> TokenStream {
     input
 }
 
-///Generates Application
+///Generates Scope
 ///
 ///Similar to [scope](attr.scope.html) macro
 ///

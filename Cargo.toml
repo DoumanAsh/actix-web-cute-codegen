@@ -7,7 +7,7 @@ authors = ["Douman <douman@gmx.se>"]
 license = "Apache-2.0"
 edition = "2018"
 repository = "https://github.com/DoumanAsh/actix-web-cute-codegen"
-documentation = "https://docs.rs/crate/actix-web-cute-codegen/"
+documentation = "https://docs.rs/crate/actix-web-cute-codegen"
 
 [lib]
 proc-macro = true
